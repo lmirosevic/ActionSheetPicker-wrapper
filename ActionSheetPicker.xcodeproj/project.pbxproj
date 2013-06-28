@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A8CAC66177DD1D100B661E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8CAC65177DD1D100B661E0 /* Foundation.framework */; };
-		8A8CAC6B177DD1D100B661E0 /* ActionSheetPicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A8CAC6A177DD1D100B661E0 /* ActionSheetPicker.h */; };
-		8A8CAC6D177DD1D100B661E0 /* ActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CAC6C177DD1D100B661E0 /* ActionSheetPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +17,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				8A8CAC6B177DD1D100B661E0 /* ActionSheetPicker.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +26,6 @@
 		8A8CAC62177DD1D100B661E0 /* libActionSheetPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libActionSheetPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8CAC65177DD1D100B661E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A8CAC69177DD1D100B661E0 /* ActionSheetPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-Prefix.pch"; sourceTree = "<group>"; };
-		8A8CAC6A177DD1D100B661E0 /* ActionSheetPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
-		8A8CAC6C177DD1D100B661E0 /* ActionSheetPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +68,6 @@
 		8A8CAC67177DD1D100B661E0 /* ActionSheetPicker */ = {
 			isa = PBXGroup;
 			children = (
-				8A8CAC6A177DD1D100B661E0 /* ActionSheetPicker.h */,
-				8A8CAC6C177DD1D100B661E0 /* ActionSheetPicker.m */,
 				8A8CAC68177DD1D100B661E0 /* Supporting Files */,
 			);
 			path = ActionSheetPicker;
@@ -139,7 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A8CAC6D177DD1D100B661E0 /* ActionSheetPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +162,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -193,7 +185,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
